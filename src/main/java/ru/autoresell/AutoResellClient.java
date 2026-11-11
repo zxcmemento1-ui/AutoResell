@@ -9,7 +9,7 @@ import net.minecraft.text.Text;
 import org.lwjgl.glfw.GLFW;
 
 public class AutoResellClient implements ClientModInitializer {
-    private static final int INTERVAL_TICKS = 60 * 20;
+    private static final int INTERVAL_TICKS = 61 * 20;
     private static KeyBinding toggleKey;
     private static boolean enabled = false;
     private static int ticksUntilNextCommand = INTERVAL_TICKS;
