@@ -20,7 +20,7 @@ public class AutoResellClient implements ClientModInitializer {
                 "key.autoresell.toggle",
                 InputUtil.Type.KEYSYM,
                 GLFW.GLFW_KEY_R,
-                KeyBinding.Category.MISC
+                "key.categories.misc"
         ));
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
