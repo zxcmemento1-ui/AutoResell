@@ -1,1 +1,20 @@
-
+{
+  "schemaVersion": 1,
+  "id": "autoresell",
+  "version": "1.0.0",
+  "name": "AutoResell",
+  "description": "Automatically sends /ah resell every 60 seconds.",
+  "authors": ["AutoResell"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.autoresell.AutoResellClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
